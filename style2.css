@@ -1,0 +1,26 @@
+.container { 
+  display: flex;
+  background-color: yellow;
+  padding: 5px;
+  width: 210px;
+}
+
+.box {
+  width: 50px;
+  height: 100px;
+  margin: 2px;
+}
+
+#box1 {
+  background-color: red;
+}
+#box2 {
+  background-color: green;
+}
+#box3 {
+  background-color: blue
+}
+#box4 {
+  background-color: purple
+}
+
