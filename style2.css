@@ -2,12 +2,12 @@
   display: flex;
   background-color: yellow;
   padding: 5px;
-  width: 210px;
+  width: 50vw;
 }
 
 .box {
-  width: 50px;
-  height: 100px;
+  width: 23%;
+  height: 30vh;
   margin: 2px;
 }
 
@@ -23,4 +23,44 @@
 #box4 {
   background-color: purple
 }
+  
+h1 {
+  font-size: 30px;
+}
 
+#subtitle {
+  font-size: 5em;
+}
+
+#headline {
+font-size: 2.5rem;
+}
+#baseline {
+  font-size: 20pt;
+}
+
+@keyframes myAnimationName {
+  0%{width: 100px;}
+50%{width: 400px;}
+75%{width: 200px;}
+100%{width: 100px;}
+}
+@keyframes flash {
+  0%{background-color: white;}
+  100%{background-color: fuchsia;}
+}
+
+#box1:hover{
+  animation-name: myAnimationName;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+#box1:active{
+  animation:flash 1ms ease-in-out infinite;
+}
+
+#box2:hover {
+  background-color: brown;
+  cursor: pointer;
+}
